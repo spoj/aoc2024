@@ -61,3 +61,7 @@ fn relax_safe(report: &[isize]) -> bool {
     }
     false
 }
+#[test]
+fn one_is_one() {
+    assert_eq!(1, 1);
+}
